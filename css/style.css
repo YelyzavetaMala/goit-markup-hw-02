@@ -18,10 +18,7 @@ button {
 }
 
 .visually-hidden {
-    position: absolute;
     margin: -1px;
-    border: 0;
-    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -50,7 +47,6 @@ button {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-decoration: none;
     text-transform: uppercase;
 }
 
@@ -70,6 +66,9 @@ button {
     text-decoration: underline;
 }
 
+.address-header{
+    font-style: normal
+}
 .address {
     color: #434455;
     line-height: 1.5;
@@ -98,12 +97,12 @@ button {
     color: #FFF;
     font-weight: 500;
     line-height: 1.5;
-    border-radius: 4px;
     letter-spacing: 0.04em;
     background: #4D5AE5;
     cursor: pointer;
 }
-.hero-button:focus {
+.hero-button:focus,
+.hero-button:hover {
     background-color: #404BBF;
 }
 
@@ -173,12 +172,17 @@ button {
     letter-spacing: 0.02em;
 }
 
-.footer-section {
+.footer {
     background-color: #2E2F42;
 }
 
-.footer-text {
+.paragraph {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+
+
+
+
